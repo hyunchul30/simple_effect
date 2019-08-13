@@ -1,9 +1,40 @@
+
+
 h1{
 font-style:italic;
 text-align:left;
 }
 p{
+  cursor: pointer;
+  color: #217a17;
 
   font-size:17px;
-  line-height:30px;
+  line-height:20px;
+}
+.clickable{
+  cursor: pointer;
+  color: #ed750c;
+
+  font-size:44px;
+}
+
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+
+.dog-showing {
+  display: none;
+}
+.this-showing {
+  display: block;
+}
+.home-showing {
+display: block;
+}
+#click{
+  color:#f74e00;
+}
+
 }
